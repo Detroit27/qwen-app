@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python --version)",
+      "PowerShell(pip --version)",
+      "PowerShell(pip install -U -r requirements.txt)",
+      "PowerShell(python -m py_compile chatbot.py)",
+      "PowerShell(if \\($?\\) { \"syntax OK\" })"
+    ]
+  }
+}

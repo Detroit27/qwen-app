@@ -1,0 +1,4 @@
+transformers
+torch
+pydantic>=2
+accelerate
